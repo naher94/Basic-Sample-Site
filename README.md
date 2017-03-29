@@ -12,4 +12,4 @@ Want a site that you could easily ready and understand fully? check out the vani
 
 ## Foundation
 
-Want something a bit more robust? Something that is responsive and optimized for many differant screen sizes. Explore the foundatation folder that includes the [Foundation CSS](http://foundation.zurb.com) framework.
+Want something a bit more robust? Something that is responsive and optimized for many differant screen sizes. Explore the foundatation folder that includes the [Foundation CSS](http://foundation.zurb.com) framework + some other fun stuff.
