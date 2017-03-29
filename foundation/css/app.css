@@ -23,13 +23,37 @@ h3 {
   margin: auto;
 }
 
-.thumbnail {
-  width: 160px;
-  height: 160px;
-  background-color: #ddd;
-  margin: 16px;
-  float: left;
-  cursor: pointer;
+.thumbnail-container {
+  position: relative;
+  display: block;
+  background-color: black;
+  opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-text {
+  opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+  opacity: 0.8;
+}
+
+.thumbnail-text {
+  position: absolute;
+  bottom: 20px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: white;
+  opacity: 0;
+  text-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
+  font-size: 33px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.thumbnail-tile {
+  margin-bottom: 30px;
 }
 
 .text {
@@ -65,4 +89,10 @@ h3 {
   font-size: 32px;
   color: white;
   margin-top: 35px;
+}
+
+/*Foundation Overrides*/
+
+.columns:last-child:not(:first-child){
+  float: left;
 }
